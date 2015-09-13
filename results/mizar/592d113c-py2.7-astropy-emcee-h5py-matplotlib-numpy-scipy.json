@@ -1,0 +1,40 @@
+{
+    "commit_hash": "592d113cf0e5220cf12d40ec250e60ad53a8a14e", 
+    "date": 1438769787000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "mizar", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 4.1.0-2-amd64", 
+        "python": "2.7", 
+        "ram": "8060468", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeSuite.time_ECPL": 0.0026520537600000014, 
+        "benchmarks.TimeSuite.time_ECPL_memoize": 0.10752549670000003, 
+        "benchmarks.TimeSuite.time_IC": 0.3007042390000001, 
+        "benchmarks.TimeSuite.time_ICx5": 0.3627048890000002, 
+        "benchmarks.TimeSuite.time_ICx5_nomemoize": 1.5065335069999999, 
+        "benchmarks.TimeSuite.time_PionDecay": 0.929170923, 
+        "benchmarks.TimeSuite.time_Sy": 0.19395994399999994, 
+        "benchmarks.TimeSuite.time_prefit_ecpl": 0.6542957559999998, 
+        "benchmarks.TimeSuite.time_prefit_ic": 6.07702266
+    }, 
+    "version": 1
+}

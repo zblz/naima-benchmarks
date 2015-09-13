@@ -1,6 +1,6 @@
 {
-    "commit_hash": "5bfb48ea5f40e70fa9dee55cf736339895287a55", 
-    "date": 1426770823000, 
+    "commit_hash": "ed43a3e997581fd63e5134e023e9839f6cdaef3c", 
+    "date": 1423081159000, 
     "params": {
         "arch": "x86_64", 
         "astropy": null, 
@@ -26,12 +26,15 @@
         "scipy": null
     }, 
     "results": {
-        "benchmarks.TimeSuite.time_ECPL": 0.010809962840000003, 
-        "benchmarks.TimeSuite.time_IC": 0.30188336700000007, 
-        "benchmarks.TimeSuite.time_PionDecay": 0.8679961949999999, 
-        "benchmarks.TimeSuite.time_Sy": 0.19017400500000003, 
-        "benchmarks.TimeSuite.time_prefit_ecpl": 1.846863565, 
-        "benchmarks.TimeSuite.time_prefit_ic": 15.143286112
+        "benchmarks.TimeSuite.time_ECPL": 0.002590951069999998, 
+        "benchmarks.TimeSuite.time_ECPL_memoize": 0.0026168063099999994, 
+        "benchmarks.TimeSuite.time_IC": 0.2692606620000002, 
+        "benchmarks.TimeSuite.time_ICx5": 1.351546698, 
+        "benchmarks.TimeSuite.time_ICx5_nomemoize": 1.337109913, 
+        "benchmarks.TimeSuite.time_PionDecay": 0.9028233999999999, 
+        "benchmarks.TimeSuite.time_Sy": 0.1690800885, 
+        "benchmarks.TimeSuite.time_prefit_ecpl": null, 
+        "benchmarks.TimeSuite.time_prefit_ic": null
     }, 
     "version": 1
 }

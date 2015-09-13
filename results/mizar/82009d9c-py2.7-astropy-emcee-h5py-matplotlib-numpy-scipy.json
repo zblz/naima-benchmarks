@@ -26,10 +26,13 @@
         "scipy": null
     }, 
     "results": {
-        "benchmarks.TimeSuite.time_ECPL": 0.0002589660479999999, 
-        "benchmarks.TimeSuite.time_IC": 0.2670060470000002, 
-        "benchmarks.TimeSuite.time_PionDecay": 0.8420450970000002, 
-        "benchmarks.TimeSuite.time_Sy": 0.1673608146, 
+        "benchmarks.TimeSuite.time_ECPL": 0.002601726900000001, 
+        "benchmarks.TimeSuite.time_ECPL_memoize": 0.002894260500000001, 
+        "benchmarks.TimeSuite.time_IC": 0.26991256100000005, 
+        "benchmarks.TimeSuite.time_ICx5": 1.3259462329999998, 
+        "benchmarks.TimeSuite.time_ICx5_nomemoize": 1.3564881209999995, 
+        "benchmarks.TimeSuite.time_PionDecay": 0.857858336, 
+        "benchmarks.TimeSuite.time_Sy": 0.193865752, 
         "benchmarks.TimeSuite.time_prefit_ecpl": null, 
         "benchmarks.TimeSuite.time_prefit_ic": null
     }, 
