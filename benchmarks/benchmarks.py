@@ -31,6 +31,9 @@ def IC(pars,data):
 p0 = np.array((1e-12, 2.7, 14.0,))
 labels = ['norm', 'index', 'cutoff']
 
+import os
+ROOT = os.path.abspath(os.path.dirname(__file__))
+
 
 class TimeSuite:
     """
@@ -43,7 +46,7 @@ class TimeSuite:
         self.energy_g = np.logspace(-3, 3, 500) * u.TeV
         self.energy_x = np.logspace(-1, 6, 500) * u.eV
 
-        self.data = ascii.read('/home/vzabalza/src/naima-benchmarks/benchmarks/RXJ1713_HESS_2007.dat')
+        self.data = ascii.read(os.path.join(ROOT,'RXJ1713_HESS_2007.dat'))
 
     def time_prefit_ecpl(self):
         sampler, pos = naima.get_sampler(data_table=self.data, p0=p0,
