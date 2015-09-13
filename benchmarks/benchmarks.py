@@ -19,14 +19,15 @@ def cutoffexp(pars, data):
             1*u.TeV, pars[1], pars[2]*u.TeV)
     return ecpl(data)
 
-def lnprior(pars):
-    return 0
-
 def IC(pars,data):
     ecpl = naima.models.ExponentialCutoffPowerLaw(pars[0] * u.Unit('1/eV'),
             1*u.TeV, pars[1], pars[2]*u.TeV)
     ic = naima.models.InverseCompton(ecpl)
-    return ic.sed(data, distance=1*u.kpc)
+    return ic.sed(data)
+
+def lnprior(pars):
+    return 0
+
 
 p0 = np.array((1e-12, 2.7, 14.0,))
 labels = ['norm', 'index', 'cutoff']
@@ -45,6 +46,8 @@ class TimeSuite:
                 1*u.TeV, 2.7, 50*u.TeV)
         self.energy_g = np.logspace(-3, 3, 500) * u.TeV
         self.energy_x = np.logspace(-1, 6, 500) * u.eV
+        self.ecpl = naima.models.ExponentialCutoffPowerLaw(1e36/u.eV,
+                1*u.TeV, 2.7, 50*u.TeV)
 
         self.data = ascii.read(os.path.join(ROOT,'RXJ1713_HESS_2007.dat'))
 
@@ -59,7 +62,14 @@ class TimeSuite:
                 prefit=True)
 
     def time_ECPL(self):
-        pd = self.pdist(self.energy_g)
+        self.ecpl._memoize = False
+        for i in range(10):
+            pd = self.ecpl(self.energy_g)
+
+    def time_ECPL_memoize(self):
+        self.ecpl._memoize = True
+        for i in range(10):
+            pd = self.ecpl(self.energy_g)
 
     def time_Sy(self):
         Sy = naima.models.Synchrotron(self.pdist, B=1*u.mG)
@@ -69,6 +79,19 @@ class TimeSuite:
         IC = naima.models.InverseCompton(self.pdist,
                 seed_photon_fields=['CMB','FIR'])
         sed = IC.sed(self.energy_g)
+
+    def time_ICx5(self):
+        IC = naima.models.InverseCompton(self.pdist,
+                seed_photon_fields=['CMB','FIR'])
+        for i in range(5):
+            sed = IC.sed(self.energy_g)
+
+    def time_ICx5_nomemoize(self):
+        IC = naima.models.InverseCompton(self.pdist,
+                seed_photon_fields=['CMB','FIR'])
+        IC._memoize = False
+        for i in range(5):
+            sed = IC.sed(self.energy_g)
 
     def time_PionDecay(self):
         PP = naima.models.PionDecay(self.pdist)
