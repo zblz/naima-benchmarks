@@ -1,0 +1,75 @@
+{
+    "benchmarks.TimeSuite.time_ECPL": {
+        "code": "def time_ECPL(self):\n    pd = self.pdist(self.energy_g)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeSuite.time_ECPL", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeSuite.time_IC": {
+        "code": "def time_IC(self):\n    IC = naima.models.InverseCompton(self.pdist,\n            seed_photon_fields=['CMB','FIR'])\n    sed = IC.sed(self.energy_g)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeSuite.time_IC", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeSuite.time_PionDecay": {
+        "code": "def time_PionDecay(self):\n    PP = naima.models.PionDecay(self.pdist)\n    sed = PP.sed(self.energy_g)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeSuite.time_PionDecay", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeSuite.time_Sy": {
+        "code": "def time_Sy(self):\n    Sy = naima.models.Synchrotron(self.pdist, B=1*u.mG)\n    sed = Sy.sed(self.energy_x)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeSuite.time_Sy", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeSuite.time_prefit_ecpl": {
+        "code": "def time_prefit_ecpl(self):\n    sampler, pos = naima.get_sampler(data_table=self.data, p0=p0,\n            labels=labels, model=cutoffexp, prior=lnprior, nwalkers=10,\n            nburn=0, prefit=True)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeSuite.time_prefit_ecpl", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeSuite.time_prefit_ic": {
+        "code": "def time_prefit_ic(self):\n    sampler, pos = naima.get_sampler(data_table=self.data, p0=p0,\n            labels=labels, model=IC, prior=lnprior, nwalkers=10, nburn=0,\n            prefit=True)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeSuite.time_prefit_ic", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "version": 1
+}
