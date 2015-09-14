@@ -1,8 +1,8 @@
 {
-    "benchmarks.TimeSuite.time_ECPL": {
-        "code": "def time_ECPL(self):\n    self.ecpl._memoize = False\n    for i in range(10):\n        pd = self.ecpl(self.energy_g)\n", 
+    "benchmarks.TimeECPL.time_ECPL_1start": {
+        "code": "def time_ECPL_1start(self):\n    ecpl = naima.models.ExponentialCutoffPowerLaw(1e36/u.eV,\n            1*u.TeV, 2.7, 50*u.TeV)\n", 
         "goal_time": 2.0, 
-        "name": "benchmarks.TimeSuite.time_ECPL", 
+        "name": "benchmarks.TimeECPL.time_ECPL_1start", 
         "number": 0, 
         "param_names": [], 
         "params": [], 
@@ -11,10 +11,10 @@
         "type": "time", 
         "unit": "seconds"
     }, 
-    "benchmarks.TimeSuite.time_ECPL_memoize": {
-        "code": "def time_ECPL_memoize(self):\n    self.ecpl._memoize = True\n    for i in range(10):\n        pd = self.ecpl(self.energy_g)\n", 
+    "benchmarks.TimeECPL.time_ECPL_2memoize": {
+        "code": "def time_ECPL_2memoize(self):\n    self.ecpl._memoize = True\n    pd = self.ecpl(self.energy_g)\n", 
         "goal_time": 2.0, 
-        "name": "benchmarks.TimeSuite.time_ECPL_memoize", 
+        "name": "benchmarks.TimeECPL.time_ECPL_2memoize", 
         "number": 0, 
         "param_names": [], 
         "params": [], 
@@ -23,10 +23,10 @@
         "type": "time", 
         "unit": "seconds"
     }, 
-    "benchmarks.TimeSuite.time_IC": {
-        "code": "def time_IC(self):\n    IC = naima.models.InverseCompton(self.pdist,\n            seed_photon_fields=['CMB','FIR'])\n    sed = IC.sed(self.energy_g)\n", 
+    "benchmarks.TimeECPL.time_ECPL_3nomemo": {
+        "code": "def time_ECPL_3nomemo(self):\n    self.ecpl._memoize = False\n    pd = self.ecpl(self.energy_g)\n", 
         "goal_time": 2.0, 
-        "name": "benchmarks.TimeSuite.time_IC", 
+        "name": "benchmarks.TimeECPL.time_ECPL_3nomemo", 
         "number": 0, 
         "param_names": [], 
         "params": [], 
@@ -35,58 +35,10 @@
         "type": "time", 
         "unit": "seconds"
     }, 
-    "benchmarks.TimeSuite.time_ICx5": {
-        "code": "def time_ICx5(self):\n    IC = naima.models.InverseCompton(self.pdist,\n            seed_photon_fields=['CMB','FIR'])\n    for i in range(5):\n        sed = IC.sed(self.energy_g)\n", 
-        "goal_time": 2.0, 
-        "name": "benchmarks.TimeSuite.time_ICx5", 
-        "number": 0, 
-        "param_names": [], 
-        "params": [], 
-        "repeat": 0, 
-        "timeout": 60.0, 
-        "type": "time", 
-        "unit": "seconds"
-    }, 
-    "benchmarks.TimeSuite.time_ICx5_nomemoize": {
-        "code": "def time_ICx5_nomemoize(self):\n    IC = naima.models.InverseCompton(self.pdist,\n            seed_photon_fields=['CMB','FIR'])\n    IC._memoize = False\n    for i in range(5):\n        sed = IC.sed(self.energy_g)\n", 
-        "goal_time": 2.0, 
-        "name": "benchmarks.TimeSuite.time_ICx5_nomemoize", 
-        "number": 0, 
-        "param_names": [], 
-        "params": [], 
-        "repeat": 0, 
-        "timeout": 60.0, 
-        "type": "time", 
-        "unit": "seconds"
-    }, 
-    "benchmarks.TimeSuite.time_PionDecay": {
-        "code": "def time_PionDecay(self):\n    PP = naima.models.PionDecay(self.pdist)\n    sed = PP.sed(self.energy_g)\n", 
-        "goal_time": 2.0, 
-        "name": "benchmarks.TimeSuite.time_PionDecay", 
-        "number": 0, 
-        "param_names": [], 
-        "params": [], 
-        "repeat": 0, 
-        "timeout": 60.0, 
-        "type": "time", 
-        "unit": "seconds"
-    }, 
-    "benchmarks.TimeSuite.time_Sy": {
-        "code": "def time_Sy(self):\n    Sy = naima.models.Synchrotron(self.pdist, B=1*u.mG)\n    sed = Sy.sed(self.energy_x)\n", 
-        "goal_time": 2.0, 
-        "name": "benchmarks.TimeSuite.time_Sy", 
-        "number": 0, 
-        "param_names": [], 
-        "params": [], 
-        "repeat": 0, 
-        "timeout": 60.0, 
-        "type": "time", 
-        "unit": "seconds"
-    }, 
-    "benchmarks.TimeSuite.time_prefit_ecpl": {
+    "benchmarks.TimePrefit.time_prefit_ecpl": {
         "code": "def time_prefit_ecpl(self):\n    sampler, pos = naima.get_sampler(data_table=self.data, p0=p0,\n            labels=labels, model=cutoffexp, prior=lnprior, nwalkers=10,\n            nburn=0, prefit=True)\n", 
         "goal_time": 2.0, 
-        "name": "benchmarks.TimeSuite.time_prefit_ecpl", 
+        "name": "benchmarks.TimePrefit.time_prefit_ecpl", 
         "number": 0, 
         "param_names": [], 
         "params": [], 
@@ -95,10 +47,130 @@
         "type": "time", 
         "unit": "seconds"
     }, 
-    "benchmarks.TimeSuite.time_prefit_ic": {
+    "benchmarks.TimePrefit.time_prefit_ic": {
         "code": "def time_prefit_ic(self):\n    sampler, pos = naima.get_sampler(data_table=self.data, p0=p0,\n            labels=labels, model=IC, prior=lnprior, nwalkers=10, nburn=0,\n            prefit=True)\n", 
         "goal_time": 2.0, 
-        "name": "benchmarks.TimeSuite.time_prefit_ic", 
+        "name": "benchmarks.TimePrefit.time_prefit_ic", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimePrefit.time_prefit_ic2": {
+        "code": "def time_prefit_ic2(self):\n    sampler, pos = naima.get_sampler(data_table=self.data, p0=p0,\n            labels=labels, model=IC_2, prior=lnprior, nwalkers=10, nburn=0,\n            prefit=True)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimePrefit.time_prefit_ic2", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeRadIC.time_IC_1start": {
+        "code": "def time_IC_1start(self):\n    IC = naima.models.InverseCompton(self.pdist,\n            seed_photon_fields=['CMB', 'FIR',\n                ['star', 20000*u.K, 1*u.erg/u.cm**3, 90*u.deg],\n                ['NIR', 200*u.K, 1*u.eV/u.cm**3],\n                ])\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeRadIC.time_IC_1start", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeRadIC.time_IC_2memo": {
+        "code": "def time_IC_2memo(self):\n    _ = self.IC.flux(self.energy_g)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeRadIC.time_IC_2memo", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeRadIC.time_IC_3nomemo": {
+        "code": "def time_IC_3nomemo(self):\n    self.IC._memoize = False\n    _ = self.IC.flux(self.energy_g)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeRadIC.time_IC_3nomemo", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeRadPionDecay.time_PionDecay_1start": {
+        "code": "def time_PionDecay_1start(self):\n    PP = naima.models.PionDecay(self.pdist)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeRadPionDecay.time_PionDecay_1start", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": {
+        "code": "def time_PionDecay_2memo(self):\n    self.PP._memoize = True\n    _ = self.PP.flux(self.energy_g)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeRadPionDecay.time_PionDecay_2memo", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": {
+        "code": "def time_PionDecay_3nomemo(self):\n    self.PP._memoize = False\n    _ = self.PP.flux(self.energy_g)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": {
+        "code": "def time_PionDecay_4loadLUT(self):\n    self.PP._memoize = False\n    self.PP.diffsigma.fname = ''\n    _ = self.PP.flux(self.energy_g)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeRadSy.time_Sy_1start": {
+        "code": "def time_Sy_1start(self):\n    Sy = naima.models.Synchrotron(self.pdist, B=1*u.mG)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeRadSy.time_Sy_1start", 
+        "number": 0, 
+        "param_names": [], 
+        "params": [], 
+        "repeat": 0, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TimeRadSy.time_Sy_2run": {
+        "code": "def time_Sy_2run(self):\n    _ = self.Sy.flux(self.energy_x)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TimeRadSy.time_Sy_2run", 
         "number": 0, 
         "param_names": [], 
         "params": [], 
