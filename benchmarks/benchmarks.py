@@ -46,7 +46,6 @@ labels = ['norm', 'index', 'cutoff']
 import os
 ROOT = os.path.abspath(os.path.dirname(__file__))
 
-
 class TimeECPL:
     """
     An example benchmark that times the performance of various kinds
@@ -98,6 +97,9 @@ class TimeRadIC:
         self.IC._memoize = False
         _ = self.IC.flux(self.energy_g)
 
+    def mem_IC(self):
+        return self.IC
+
 class TimeRadPionDecay:
     def setup(self):
         self.pdist = naima.models.ExponentialCutoffPowerLaw(1e36/u.eV,
@@ -123,6 +125,9 @@ class TimeRadPionDecay:
         self.PP.diffsigma.fname = ''
         _ = self.PP.flux(self.energy_g)
 
+    def mem_PionDecay(self):
+        return self.PP
+
 class TimeRadSy:
     def setup(self):
         self.pdist = naima.models.ExponentialCutoffPowerLaw(1e36/u.eV,
@@ -136,6 +141,9 @@ class TimeRadSy:
 
     def time_Sy_2run(self):
         _ = self.Sy.flux(self.energy_x)
+
+    def mem_Sy(self):
+        return self.Sy
 
 
 class TimePrefit:
