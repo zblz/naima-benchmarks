@@ -1,0 +1,50 @@
+{
+    "commit_hash": "421b0dff278db01d21f13b08d0368ed6866765fc", 
+    "date": 1427824427000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007727828410000002, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.022913048199999998, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006267775500000003, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 3.959425999, 
+        "benchmarks.TimePrefit.time_prefit_ic": 34.196278305, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 32.889559843, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.008355182129999998, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.023143793000000024, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7690426330000002, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001247923534, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.02355869300000002, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.168357991999999, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.154558790000001, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0004952921690000002, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.522836421, 
+        "import.time_import": 1.5829000000078253e-05
+    }, 
+    "version": 1
+}
