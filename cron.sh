@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# test if root cron jobs are being run, exit
+if [ "$(pgrep run-parts)" != "" ]; then
+    echo "Cron jobs being run, exiting!"
+    exit 1
+fi
+
 export PATH=/home/vzabalza/anaconda/bin:$PATH
 cd /home/vzabalza/src/naima-benchmarks
 
