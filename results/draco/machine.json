@@ -1,0 +1,8 @@
+{
+    "arch": "x86_64", 
+    "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+    "machine": "draco", 
+    "os": "Linux 3.16.0-4-amd64", 
+    "ram": "4GB", 
+    "version": 1
+}

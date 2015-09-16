@@ -1,0 +1,50 @@
+{
+    "commit_hash": "4c7e65e14c4ccbe2de96d1110fcfa0a69dc7e819", 
+    "date": 1441894645000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007688475269999996, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.022996941000000028, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006125238279999996, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 1.4433079789999999, 
+        "benchmarks.TimePrefit.time_prefit_ic": 13.560298204, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 14.226553119, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004796614159999999, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.02312721550000001, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7715386190000002, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00012306346780000004, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.023474176999999763, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.153048289999999, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.1538608360000016, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0004867759119999997, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.5227664939999999, 
+        "import.time_import": 1.5798999999816488e-05
+    }, 
+    "version": 1
+}

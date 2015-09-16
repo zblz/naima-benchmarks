@@ -1,0 +1,50 @@
+{
+    "commit_hash": "6122dc3852beaf470bdedf3bb6fafc58358792e9", 
+    "date": 1440606190000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007701364889999999, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.02256591929999998, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.000615457922, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 1.4392966780000003, 
+        "benchmarks.TimePrefit.time_prefit_ic": 13.516018531, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 14.29231089, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.008407110159999998, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.023030298000000116, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.768932059, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00012372954749999997, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.023360306999999914, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.1466086570000007, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.143636344000001, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0004898661659999997, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.51907009, 
+        "import.time_import": 1.5147999999909345e-05
+    }, 
+    "version": 1
+}
