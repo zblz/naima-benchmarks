@@ -1,0 +1,50 @@
+{
+    "commit_hash": "ccf5b9b95f4959dde5fae7f63af7eae07cdd1a92", 
+    "date": 1441827293000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007781841879999996, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.02308362230000003, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006145856439999999, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 1.4566747739999997, 
+        "benchmarks.TimePrefit.time_prefit_ic": 13.52601006, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 14.184631625000002, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004838047699999999, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.023274790199999985, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7730929440000001, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00012236739040000008, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.023458908000000278, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.1731083570000003, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.1651166140000004, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0004925273529999999, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.5197515410000002, 
+        "import.time_import": 1.5199999999992997e-05
+    }, 
+    "version": 1
+}
