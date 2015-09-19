@@ -1,0 +1,50 @@
+{
+    "commit_hash": "a3bf0fb34b6059ae0c219c1a75d0cfa4e510d7a2", 
+    "date": 1442571454000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.000784405917, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00026422107899999993, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006218513590000003, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5180035159999998, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.995950086000001, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.293494531999999, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004896277540000002, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0007167797099999999, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7182747059999999, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001502758751, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.00045026699999972664, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.4020465279999996, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.1512047969999983, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024456315500000024, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.4928996790000002, 
+        "import.time_import": 1.6031999999999158e-05
+    }, 
+    "version": 1
+}
