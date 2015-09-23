@@ -29,9 +29,9 @@
         "benchmarks.TimeECPL.time_ECPL_1start": null, 
         "benchmarks.TimeECPL.time_ECPL_2memoize": null, 
         "benchmarks.TimeECPL.time_ECPL_3nomemo": null, 
-        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5201265490000002, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5125599730000001, 
         "benchmarks.TimePrefit.time_prefit_ic": null, 
-        "benchmarks.TimePrefit.time_prefit_ic2": 6.324442107000001, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.262574703, 
         "benchmarks.TimeRadIC.mem_IC": null, 
         "benchmarks.TimeRadIC.time_IC_1start": null, 
         "benchmarks.TimeRadIC.time_IC_2memo": null, 
@@ -42,9 +42,9 @@
         "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": null, 
         "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": null, 
         "benchmarks.TimeRadSy.mem_Sy": 1112, 
-        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024203586899999995, 
-        "benchmarks.TimeRadSy.time_Sy_2run": 0.49357299700000024, 
-        "import.time_import": 3.7263000000065105e-05
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024377939599999987, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.492575666, 
+        "import.time_import": 1.4965999999727586e-05
     }, 
     "version": 1
 }
