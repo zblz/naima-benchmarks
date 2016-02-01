@@ -1,0 +1,50 @@
+{
+    "commit_hash": "ad5ea3c501bba9b4f0a5c471f56f310820857383", 
+    "date": 1454197178000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007406081290000004, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00029180570699999996, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006355324590000002, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5006475480000003, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.988464560999999, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.323880204, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.0048817567700000005, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006507068159999996, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7248981670000001, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00014516971300000003, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.00040586099999995184, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.4957674040000004, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.2100325830000003, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024007130899999973, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.496019483, 
+        "import.time_import": 5.330000000025592e-06
+    }, 
+    "version": 1
+}

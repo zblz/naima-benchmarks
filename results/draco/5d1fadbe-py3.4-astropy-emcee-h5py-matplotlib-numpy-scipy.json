@@ -1,0 +1,50 @@
+{
+    "commit_hash": "5d1fadbee6437fb3c9b0446372fd1bba1e5d50d9", 
+    "date": 1454118523000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007384183449999999, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00028574773399999966, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006226678080000001, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.510089314, 
+        "benchmarks.TimePrefit.time_prefit_ic": 8.279272451999999, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.383993840999999, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004894475600000003, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006562681400000003, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7236459909999997, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001466034091, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.00043497299999994965, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.5137788200000006, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.2112813199999994, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024306968200000023, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49623061000000046, 
+        "import.time_import": 5.003999999697584e-06
+    }, 
+    "version": 1
+}

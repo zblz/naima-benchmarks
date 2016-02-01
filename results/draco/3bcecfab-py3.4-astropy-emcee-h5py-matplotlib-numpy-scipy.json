@@ -1,0 +1,50 @@
+{
+    "commit_hash": "3bcecfab469bfcce45220d3de58678cd20a3e458", 
+    "date": 1454182027000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007392906429999999, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.0002882234480000001, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006238346770000001, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5102637219999999, 
+        "benchmarks.TimePrefit.time_prefit_ic": 8.015634112999999, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.317724956999999, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004875732300000002, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006473733409999997, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7238865480000003, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00014528768259999998, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0004080439999993857, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.5340026399999998, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.217688591, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024071742799999996, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.4955382260000003, 
+        "import.time_import": 5.096999999842922e-06
+    }, 
+    "version": 1
+}

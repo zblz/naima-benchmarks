@@ -1,0 +1,50 @@
+{
+    "commit_hash": "d1a978d5978e7a5089da3f2d632d52ce06fd77f7", 
+    "date": 1454114965000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.00076840901, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00030177800899999996, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006106079120000004, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.503261256, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.891266046, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.221312399, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004816361439999999, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.00068670133, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7216196650000004, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00014952702860000002, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.00044508200000059617, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.402095837000001, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.07927497, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0002402675669999996, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49495055000000043, 
+        "import.time_import": 1.6202999999936907e-05
+    }, 
+    "version": 1
+}
