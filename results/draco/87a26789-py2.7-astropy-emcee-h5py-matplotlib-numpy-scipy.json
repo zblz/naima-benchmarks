@@ -1,0 +1,50 @@
+{
+    "commit_hash": "87a26789cba73eb5ecc7af504d84d478bce0653d", 
+    "date": 1454597227000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007643808999999999, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00030176551100000014, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006056135559999998, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5077715469999999, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.9193230009999995, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.278647269, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.0048659130599999975, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006837227439999997, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7193762889999995, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00014919776329999995, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.00044533400000013046, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.3977865430000005, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.070352734, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024265513599999977, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.4918554949999998, 
+        "import.time_import": 1.5942999999962737e-05
+    }, 
+    "version": 1
+}

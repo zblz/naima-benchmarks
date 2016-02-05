@@ -1,0 +1,50 @@
+{
+    "commit_hash": "03ae9a96e1da7b1f43d2e2939e30adff6f66e6c4", 
+    "date": 1454602590000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007616592199999998, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00029986053199999987, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006068822190000001, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5035932249999999, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.863846994000001, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.254150011, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004832247619999999, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006835838430000001, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.71939479, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00014912100070000003, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0004554759999999547, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.405599039000001, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.0663974140000008, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00023867906199999967, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.4971374660000003, 
+        "import.time_import": 1.5827999999995512e-05
+    }, 
+    "version": 1
+}
