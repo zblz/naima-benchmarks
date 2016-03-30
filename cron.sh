@@ -17,6 +17,12 @@ cd /home/vzabalza/src/naima-benchmarks
 asv run NEW
 git add results
 git commit -m 'new results'
-git push
-asv gh-pages
+lsha=$(git rev-parse --verify HEAD)
+rsha=$(git rev-parse --verify origin/master)
+if [ $lsha != $rsha ]; then 
+    git push
+    asv gh-pages
+else
+    echo 'No new results'
+fi
 
