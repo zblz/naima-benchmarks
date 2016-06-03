@@ -1,0 +1,50 @@
+{
+    "commit_hash": "0d255cb33f93b1d5a9ead8ca66837b0804fddd2b", 
+    "date": 1464774010000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0005653647259999999, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00024193888799999998, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.000461234567, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.3809731519999997, 
+        "benchmarks.TimePrefit.time_prefit_ic": 5.896524185999999, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 4.749689586000001, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.003860584760000001, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0005105609680000001, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.5648028580000002, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00010908324299999999, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0003360909999994277, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.1522388490000002, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 1.6791621400000007, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00017054187399999997, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.37321983800000025, 
+        "import.time_import": 3.798000000054813e-06
+    }, 
+    "version": 1
+}
