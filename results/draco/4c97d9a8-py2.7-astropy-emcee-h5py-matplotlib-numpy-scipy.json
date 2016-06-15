@@ -1,0 +1,50 @@
+{
+    "commit_hash": "4c97d9a8dec83309f7ee492de6bec144ef7e54c4", 
+    "date": 1465807877000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.000564833647, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00023713804900000034, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.00044581161999999975, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.38633644700000014, 
+        "benchmarks.TimePrefit.time_prefit_ic": 5.8243048260000005, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 4.673511552999999, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.003608145169999997, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0005145081239999998, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.5649774019999998, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001099973028, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.00037879500000048694, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.0611362360000003, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 1.6052197150000005, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00017263804280000006, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.37342628499999986, 
+        "import.time_import": 1.1619000000129276e-05
+    }, 
+    "version": 1
+}
