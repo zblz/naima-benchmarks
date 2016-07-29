@@ -1,0 +1,50 @@
+{
+    "commit_hash": "82f6813d631bb5f59228b18869fd1cb1aa0ed1a8", 
+    "date": 1469716591000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.000557464812, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00023478182899999987, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.00044285032599999984, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.38251303299999995, 
+        "benchmarks.TimePrefit.time_prefit_ic": 5.733044633, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 4.604133556, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.0035278468899999993, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0005136012619999999, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.5607044480000001, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00011066284409999999, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0003436539999999155, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.0324668160000003, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 1.5891770310000002, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00017379420030000007, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.3707709809999997, 
+        "import.time_import": 1.1970000000083303e-05
+    }, 
+    "version": 1
+}
