@@ -1,0 +1,50 @@
+{
+    "commit_hash": "dfe076e89c5faa6bd715ba372ed523f5585511c2", 
+    "date": 1482052595000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.000742261557, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.0003366579079999998, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006252751550000001, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5214655939999999, 
+        "benchmarks.TimePrefit.time_prefit_ic": 8.080364735, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.344708275, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.00491469961, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006909161500000005, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7255857479999994, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001462905942000001, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0004564320000000066, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.5242573890000006, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.194183937, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00023964191000000001, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.4963525200000003, 
+        "import.time_import": 5.273000000194372e-06
+    }, 
+    "version": 1
+}
