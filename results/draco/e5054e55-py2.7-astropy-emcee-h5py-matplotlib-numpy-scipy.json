@@ -1,0 +1,50 @@
+{
+    "commit_hash": "e5054e559ba6b91807b2440d6b051160e27371d8", 
+    "date": 1423273918000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007791574950000002, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.0006142251049999996, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006208318850000003, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 1.2259903260000002, 
+        "benchmarks.TimePrefit.time_prefit_ic": 19.279361974, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 15.678176358999998, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.008384014370000008, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.7197005679999999, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7192305619999999, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00011684805040000005, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 2.118738637, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.1204940709999995, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.117517417, 
+        "benchmarks.TimeRadSy.mem_Sy": 728, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0007357159930000003, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.508556107, 
+        "import.time_import": 1.5007000000011317e-05
+    }, 
+    "version": 1
+}

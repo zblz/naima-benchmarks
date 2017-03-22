@@ -1,0 +1,50 @@
+{
+    "commit_hash": "d439ecf772e83d560d229bdf26aa90267fa6fec5", 
+    "date": 1454288342000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007675133409999999, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00030255127700000006, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.000609770959, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5093590659999998, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.9079895659999995, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.232130995, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004861841800000004, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0008788202859999998, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7200236750000002, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00015138091099999994, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.00044629400000051334, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.3951391910000002, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.0715736519999997, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024243634800000003, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.4965968809999999, 
+        "import.time_import": 1.546700000010226e-05
+    }, 
+    "version": 1
+}

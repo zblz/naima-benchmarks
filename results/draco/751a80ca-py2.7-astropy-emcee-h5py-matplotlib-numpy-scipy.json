@@ -1,0 +1,50 @@
+{
+    "commit_hash": "751a80cacd55b972a9dd59aade90e46456dc01fd", 
+    "date": 1422898384000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007845550130000003, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.0006138148680000004, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006172145260000001, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": null, 
+        "benchmarks.TimePrefit.time_prefit_ic": null, 
+        "benchmarks.TimePrefit.time_prefit_ic2": null, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.008390111939999998, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.7190048039999999, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7198229770000002, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001154590378, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 2.127334845000002, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.126348392999999, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.1264931120000004, 
+        "benchmarks.TimeRadSy.mem_Sy": 728, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.000739577959, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.5044582159999997, 
+        "import.time_import": 1.5827999999995512e-05
+    }, 
+    "version": 1
+}

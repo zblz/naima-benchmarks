@@ -1,0 +1,50 @@
+{
+    "commit_hash": "1cd332839c7b58279411863f18d9966f1175bd83", 
+    "date": 1442164530000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.000739168496, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.02805009919999999, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.000625388804, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5114961840000003, 
+        "benchmarks.TimePrefit.time_prefit_ic": 8.387947821000001, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 8.849288735999998, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.00490874067, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0277378208, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7288054490000002, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001231569543, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.02718566299999914, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.168070264999999, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.167914272999999, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0007530579299999998, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49561121799999963, 
+        "import.time_import": 5.2770000000812445e-06
+    }, 
+    "version": 1
+}

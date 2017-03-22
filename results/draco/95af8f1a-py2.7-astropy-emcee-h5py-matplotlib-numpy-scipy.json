@@ -1,0 +1,50 @@
+{
+    "commit_hash": "95af8f1a110ff2f73cd02d37149f1b912dc87472", 
+    "date": 1430304436000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007726513700000002, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.0231130544, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006202876619999999, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 3.9388881830000004, 
+        "benchmarks.TimePrefit.time_prefit_ic": 34.089133566, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 32.768670889999996, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.00841758875, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.02306854699999983, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7665533919999996, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001231732247, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.023294413000000347, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.159312755, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.166098505999999, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0005089479809999999, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.5180935739999999, 
+        "import.time_import": 1.530199999999482e-05
+    }, 
+    "version": 1
+}

@@ -1,0 +1,50 @@
+{
+    "commit_hash": "91e9dfaca3e40b0179fcefce26009498a4a743ed", 
+    "date": 1454147503000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007383636529999999, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.0002890468469999998, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006291860990000005, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5097678080000003, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.937464125, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.293226312000001, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004886086420000008, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006470305370000001, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7260274010000001, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00015130309749999995, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0004373409999995914, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.4905460180000007, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.2044879379999998, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024393464899999983, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49833623299999985, 
+        "import.time_import": 5.294999999794214e-06
+    }, 
+    "version": 1
+}

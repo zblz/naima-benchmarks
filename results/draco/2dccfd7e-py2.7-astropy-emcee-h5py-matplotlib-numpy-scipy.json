@@ -1,0 +1,50 @@
+{
+    "commit_hash": "2dccfd7e3271b405e8985ac5f667772bcdbf2b2e", 
+    "date": 1439547945000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007699428169999996, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.022891687899999978, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006166804930000001, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 1.442155697, 
+        "benchmarks.TimePrefit.time_prefit_ic": 13.562270772000002, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 14.319162158, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.00836306402, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.023218109000000098, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7707635220000002, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00012088759480000002, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.02299311800000048, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.1531774539999997, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.152060464, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0004942139700000001, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.5427749669999997, 
+        "import.time_import": 1.5549000000003588e-05
+    }, 
+    "version": 1
+}

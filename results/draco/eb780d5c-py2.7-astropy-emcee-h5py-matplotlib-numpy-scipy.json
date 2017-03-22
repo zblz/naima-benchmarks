@@ -1,0 +1,50 @@
+{
+    "commit_hash": "eb780d5c87a694060b1ecd41417c550983e2c778", 
+    "date": 1423777598000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007721790430000004, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.000621294229, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.000614573493, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 1.2218037569999995, 
+        "benchmarks.TimePrefit.time_prefit_ic": 19.092162616, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 15.738602646, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.008362536179999998, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.7202610760000008, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7192042670000003, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001172376947, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 2.1279929969999998, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.124528163999999, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.129558533000001, 
+        "benchmarks.TimeRadSy.mem_Sy": 728, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0007432072569999999, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49142749100000005, 
+        "import.time_import": 1.5469000000045696e-05
+    }, 
+    "version": 1
+}

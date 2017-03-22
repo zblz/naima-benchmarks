@@ -1,0 +1,50 @@
+{
+    "commit_hash": "a207246f64f9b8659beec956aa8a6561f55fe1ae", 
+    "date": 1438797713000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007727993629999999, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.022882669700000014, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006157968860000001, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 1.4339377350000002, 
+        "benchmarks.TimePrefit.time_prefit_ic": 13.494693843, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 14.369361191, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.00831169492, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.02316320199999966, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.769799226, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001236028417, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.023363022999999927, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.1541732689999993, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.1797319359999996, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0004940527640000001, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.5190345490000001, 
+        "import.time_import": 1.557100000004752e-05
+    }, 
+    "version": 1
+}

@@ -1,0 +1,5 @@
+naima
+*.pyc
+env
+html
+lastcron.log

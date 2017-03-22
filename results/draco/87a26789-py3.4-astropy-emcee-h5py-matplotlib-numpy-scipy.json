@@ -1,0 +1,50 @@
+{
+    "commit_hash": "87a26789cba73eb5ecc7af504d84d478bce0653d", 
+    "date": 1454597227000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007529321409999996, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00028382589499999965, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006301433690000003, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5092327409999999, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.95230474, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.354326296000001, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004951267699999997, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006482707379999999, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7187470899999999, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00014946977539999988, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.00042608700000013044, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.4843758179999993, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.183370148, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024055257400000006, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49297876500000015, 
+        "import.time_import": 4.9849999999018735e-06
+    }, 
+    "version": 1
+}

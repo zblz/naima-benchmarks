@@ -1,0 +1,50 @@
+{
+    "commit_hash": "974e921bead0d784a6b1ca4e4c6dbe3c8e3c6dc5", 
+    "date": 1423584164000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007946177989999996, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.0006135187709999998, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006155388629999998, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 1.2313833389999997, 
+        "benchmarks.TimePrefit.time_prefit_ic": 19.323266364000002, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 15.729906934999999, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.008355946540000003, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.7216555509999996, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7203605970000009, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00011903929040000004, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 2.1295015709999987, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.115660718000001, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.1153534920000006, 
+        "benchmarks.TimeRadSy.mem_Sy": 728, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0007382766380000003, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49382781399999987, 
+        "import.time_import": 1.5351000000052295e-05
+    }, 
+    "version": 1
+}

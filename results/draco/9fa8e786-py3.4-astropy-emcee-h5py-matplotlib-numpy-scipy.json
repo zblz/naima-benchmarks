@@ -1,0 +1,50 @@
+{
+    "commit_hash": "9fa8e786eb26eb27b45e70ed07c7b6affd304ade", 
+    "date": 1454345705000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007483004609999999, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00029017146699999996, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006260998080000002, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5190390960000002, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.990340568000001, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.354815261000001, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004905162299999999, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006432073520000001, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7182531859999997, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00014817944580000004, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0004114219999999946, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.504484691, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.2000654090000005, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024112877999999993, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49397331499999986, 
+        "import.time_import": 5.171000000192549e-06
+    }, 
+    "version": 1
+}

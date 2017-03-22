@@ -1,0 +1,50 @@
+{
+    "commit_hash": "8ffedae5cd338c1d1c2f31c0cb68034cc62959d3", 
+    "date": 1448655491000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007711394939999998, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.000303781227, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006064037140000002, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5279509250000001, 
+        "benchmarks.TimePrefit.time_prefit_ic": 8.008105994000001, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.260857293999999, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004793351439999998, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006807312629999993, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.721999705, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00014882290280000002, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0004441770000003231, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.4027688190000003, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.0788508869999998, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0002427239929999998, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49765884100000024, 
+        "import.time_import": 1.5636000000096573e-05
+    }, 
+    "version": 1
+}

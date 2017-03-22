@@ -1,0 +1,50 @@
+{
+    "commit_hash": "97981b1c1f36af7e71365718f5170edb0d100795", 
+    "date": 1465663721000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007525952719999998, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00032706932899999997, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006287985430000003, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5071490440000002, 
+        "benchmarks.TimePrefit.time_prefit_ic": 8.025793644, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.402657334000001, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004979746570000003, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006895179310000001, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7228030959999998, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001457323593, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0004516160000003211, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.5064039860000005, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.1986966799999994, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024266529799999993, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.4970764009999997, 
+        "import.time_import": 5.439000000162508e-06
+    }, 
+    "version": 1
+}

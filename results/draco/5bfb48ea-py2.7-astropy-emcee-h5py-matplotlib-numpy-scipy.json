@@ -1,0 +1,50 @@
+{
+    "commit_hash": "5bfb48ea5f40e70fa9dee55cf736339895287a55", 
+    "date": 1426770823000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.000776991915, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.02339795969999998, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006076524569999999, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 3.9602869660000004, 
+        "benchmarks.TimePrefit.time_prefit_ic": 34.032486873, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 32.840170418999996, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.008428117890000007, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.023266109999999784, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7707445979999998, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00012152631400000002, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.023354528000000485, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.162080383000001, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.1652786519999996, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0004902364689999997, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.5400453219999997, 
+        "import.time_import": 1.5510000000107382e-05
+    }, 
+    "version": 1
+}

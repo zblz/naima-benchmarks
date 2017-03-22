@@ -1,0 +1,50 @@
+{
+    "commit_hash": "11a69e13846d43f58ccf3906e0bba225c794ec69", 
+    "date": 1442572984000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": null, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": null, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": null, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5125599730000001, 
+        "benchmarks.TimePrefit.time_prefit_ic": null, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.262574703, 
+        "benchmarks.TimeRadIC.mem_IC": null, 
+        "benchmarks.TimeRadIC.time_IC_1start": null, 
+        "benchmarks.TimeRadIC.time_IC_2memo": null, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": null, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": null, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": null, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": null, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": null, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": null, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024377939599999987, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.492575666, 
+        "import.time_import": 1.4965999999727586e-05
+    }, 
+    "version": 1
+}

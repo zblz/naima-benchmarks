@@ -1,0 +1,50 @@
+{
+    "commit_hash": "ad5ea3c501bba9b4f0a5c471f56f310820857383", 
+    "date": 1454197178000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007660373250000001, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.0002978204820000001, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.000610421428, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5066617019999999, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.8847171309999995, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.231853396, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004830758149999999, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006697554459999999, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7219394169999998, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00014864481170000002, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.00043999199999955607, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.3938700229999998, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.0725533989999994, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024083377200000023, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49279219800000007, 
+        "import.time_import": 1.5685000000154048e-05
+    }, 
+    "version": 1
+}

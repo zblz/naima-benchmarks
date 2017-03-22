@@ -1,0 +1,50 @@
+{
+    "commit_hash": "3f2c2fe12071912acf5c42975c4a139eec368107", 
+    "date": 1423075409000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.00077805072, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.000620110601, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006203966350000001, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": null, 
+        "benchmarks.TimePrefit.time_prefit_ic": null, 
+        "benchmarks.TimePrefit.time_prefit_ic2": null, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.008391452589999994, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.7204156560000001, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7205883760000003, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00011765747270000002, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 2.1320471029999997, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.1286139669999997, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.128695930000001, 
+        "benchmarks.TimeRadSy.mem_Sy": 728, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0007405566810000002, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49271191199999986, 
+        "import.time_import": 1.5402999999913902e-05
+    }, 
+    "version": 1
+}

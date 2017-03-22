@@ -1,0 +1,50 @@
+{
+    "commit_hash": "e26c68dfb8aac92bb0e8b36f15cf73e8c55c21af", 
+    "date": 1454522155000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007646502829999995, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.000301802549, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006049467000000002, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5130619670000001, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.928143543000001, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.24813421, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004898670209999998, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006952291019999999, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7158245340000002, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00014926475540000004, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0004480009999996426, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.3894918830000007, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.0741313089999984, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024119315200000013, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.4948370230000001, 
+        "import.time_import": 1.5519999999824563e-05
+    }, 
+    "version": 1
+}

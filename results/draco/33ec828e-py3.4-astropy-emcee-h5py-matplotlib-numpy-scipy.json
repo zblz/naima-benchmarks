@@ -1,0 +1,50 @@
+{
+    "commit_hash": "33ec828efca923480d720f2209fbd1d66acf434a", 
+    "date": 1454100568000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007409152169999995, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.0002884304179999999, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006257162260000006, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5031504710000001, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.892470949999998, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.3602626010000005, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004967278979999996, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006437410589999998, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.729780597, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00015063420859999993, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.00040939299999998013, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.489974975, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.197873747000001, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024304464699999962, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.4962359809999999, 
+        "import.time_import": 5.407999999818003e-06
+    }, 
+    "version": 1
+}

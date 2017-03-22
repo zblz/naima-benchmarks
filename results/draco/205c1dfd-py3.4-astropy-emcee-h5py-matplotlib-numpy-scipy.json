@@ -1,0 +1,50 @@
+{
+    "commit_hash": "205c1dfdbbf9a234a2a21d146433698ad74ae6b2", 
+    "date": 1487898814000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.000750859953, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00033012564399999977, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006395834689999997, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5149728569999996, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.943128901, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.307855445, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.0049444753600000006, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.000707230504, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7259881179999996, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001492160697, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0004575189999993512, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.5214191290000008, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.2235773880000007, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0002372226949999998, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.499267997, 
+        "import.time_import": 5.232999999993382e-06
+    }, 
+    "version": 1
+}

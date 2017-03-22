@@ -1,0 +1,50 @@
+{
+    "commit_hash": "e26c68dfb8aac92bb0e8b36f15cf73e8c55c21af", 
+    "date": 1454522155000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007439105200000001, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00029216642900000035, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006285968739999999, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5021611830000001, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.83296788, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.358950465000001, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004942524889999999, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006541296690000005, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7222004670000004, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001489055034999999, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0004188249999996785, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.4807522839999994, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.203080335, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00023934393999999992, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.4960244440000001, 
+        "import.time_import": 5.398000000322867e-06
+    }, 
+    "version": 1
+}

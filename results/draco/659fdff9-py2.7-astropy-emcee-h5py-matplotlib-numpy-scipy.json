@@ -1,0 +1,50 @@
+{
+    "commit_hash": "659fdff92d2b1db28b6145044da3513c808fdd3a", 
+    "date": 1438804365000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007899168400000001, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.022763393399999998, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006178797679999999, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 1.4158189490000002, 
+        "benchmarks.TimePrefit.time_prefit_ic": 13.54077324, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 14.394378873, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.008395117179999998, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.023422168000000188, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.771064719, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001255764140000001, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.023304412000000774, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.1499993959999992, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.154866933000001, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0005074135260000001, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.5180477829999997, 
+        "import.time_import": 1.575399999986793e-05
+    }, 
+    "version": 1
+}

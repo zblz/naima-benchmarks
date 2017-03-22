@@ -1,0 +1,50 @@
+{
+    "commit_hash": "d5d0aa395eaf80ae9fc636f866ae994742c66dae", 
+    "date": 1425988231000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": null, 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": null, 
+        "h5py": null, 
+        "machine": "draco", 
+        "matplotlib": null, 
+        "numpy": null, 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": null
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": null, 
+        "emcee": null, 
+        "h5py": null, 
+        "matplotlib": null, 
+        "numpy": null, 
+        "scipy": null
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007763163800000003, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.022900296000000032, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.000615565127, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 3.7313708959999996, 
+        "benchmarks.TimePrefit.time_prefit_ic": 33.967668767000006, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 32.206626231, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.0083860716, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.023269893000000152, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.76973848, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00012416015590000003, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.02373497399999991, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 2.1724439240000013, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.1682793730000007, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.0004910961560000002, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.5404532569999998, 
+        "import.time_import": 1.4989000000076302e-05
+    }, 
+    "version": 1
+}

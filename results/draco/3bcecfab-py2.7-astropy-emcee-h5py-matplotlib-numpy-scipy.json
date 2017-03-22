@@ -1,0 +1,50 @@
+{
+    "commit_hash": "3bcecfab469bfcce45220d3de58678cd20a3e458", 
+    "date": 1454182027000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007633264520000003, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.0003009679260000002, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006142900909999999, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5041729269999997, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.896264362, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.230364871999999, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004804062120000001, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006791526540000001, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7214411329999999, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001493524215, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0004466450000002453, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.4014973060000004, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.0814009870000003, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024229697900000023, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.5001102479999999, 
+        "import.time_import": 1.5907999999953404e-05
+    }, 
+    "version": 1
+}

@@ -1,0 +1,50 @@
+{
+    "commit_hash": "da8c7815c3721f7925c045a0445baabcb000e226", 
+    "date": 1454194855000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007691215499999995, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00029724482800000016, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006081580099999999, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5055700139999999, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.843127909, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.219096307000001, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004825849299999998, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006793348290000001, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7245924199999996, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00014879193330000006, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.00044493299999981417, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.3938972820000002, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.077163888000001, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024132198599999998, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49289912299999994, 
+        "import.time_import": 1.6146999999966383e-05
+    }, 
+    "version": 1
+}

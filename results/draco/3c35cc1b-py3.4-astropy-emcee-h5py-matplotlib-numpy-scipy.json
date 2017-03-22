@@ -1,0 +1,50 @@
+{
+    "commit_hash": "3c35cc1bb7460514e7e00e1481adeb19703b8a49", 
+    "date": 1481815398000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "3.4", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "3.4", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007404617459999998, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00033049395599999977, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006317645470000004, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5088608519999998, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.879169657, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.336249644999999, 
+        "benchmarks.TimeRadIC.mem_IC": 920, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004945057349999997, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0007010709840000002, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7214468350000001, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 920, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.0001492127955999999, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0004435630000001467, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.5474258290000007, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.1672652899999996, 
+        "benchmarks.TimeRadSy.mem_Sy": 920, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00023988435299999989, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49989233499999974, 
+        "import.time_import": 5.3400000004089065e-06
+    }, 
+    "version": 1
+}

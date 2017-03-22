@@ -1,0 +1,50 @@
+{
+    "commit_hash": "dfe076e89c5faa6bd715ba372ed523f5585511c2", 
+    "date": 1482052595000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0008140953669999998, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00032846407599999996, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006133612999999998, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5285801510000003, 
+        "benchmarks.TimePrefit.time_prefit_ic": 8.135529995, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.356958188, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.005011534260000001, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0007164710589999999, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7240191749999996, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00015190279059999997, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0005172379999995869, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.4630436860000007, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.122806925999999, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024047429099999996, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49809639799999994, 
+        "import.time_import": 1.6293999999916764e-05
+    }, 
+    "version": 1
+}

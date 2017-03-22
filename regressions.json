@@ -1,0 +1,44 @@
+{
+    "regressions": [
+        [
+            "benchmarks.TimeRadSy.mem_Sy", 
+            "graphs/arch-x86_64/astropy/branch-master/cpu-AMD Turion(tm) II Neo N54L Dual-Core Processor/emcee/h5py/machine-draco/matplotlib/numpy/os-Linux 3.16.0-4-amd64/python-2.7/ram-4GB/scipy/benchmarks.TimeRadSy.mem_Sy.json", 
+            {
+                "python": "2.7"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        1424973671000
+                    ]
+                ], 
+                1112.0, 
+                728.0
+            ]
+        ], 
+        [
+            "benchmarks.TimeRadPionDecay.time_PionDecay_1start", 
+            "graphs/arch-x86_64/astropy/branch-master/cpu-AMD Turion(tm) II Neo N54L Dual-Core Processor/emcee/h5py/machine-draco/matplotlib/numpy/os-Linux 3.16.0-4-amd64/python-2.7/ram-4GB/scipy/benchmarks.TimeRadPionDecay.time_PionDecay_1start.json", 
+            {
+                "python": "2.7"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        1424973671000
+                    ], 
+                    [
+                        null, 
+                        1442570508000
+                    ]
+                ], 
+                0.00014986240689999998, 
+                0.00011671406439999999
+            ]
+        ]
+    ]
+}

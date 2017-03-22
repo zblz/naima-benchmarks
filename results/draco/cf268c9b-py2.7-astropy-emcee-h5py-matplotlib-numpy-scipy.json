@@ -1,0 +1,50 @@
+{
+    "commit_hash": "cf268c9b023d55afc4f88e031e5c3263f45f9ebb", 
+    "date": 1454616108000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.0007674516700000003, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.00029818265499999974, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006080497779999999, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5144672569999997, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.952598564, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.294473389, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004869015930000002, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0006829931619999998, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.723677114, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00014986240689999998, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.00045301900000005446, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.3985014150000001, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.066013132, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00024222169299999984, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.49709945899999974, 
+        "import.time_import": 1.5052999999820571e-05
+    }, 
+    "version": 1
+}
