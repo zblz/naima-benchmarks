@@ -1,0 +1,50 @@
+{
+    "commit_hash": "4bd3e645147c4a362ec87156864970cab7ece38f", 
+    "date": 1489993822000, 
+    "params": {
+        "arch": "x86_64", 
+        "astropy": "", 
+        "cpu": "AMD Turion(tm) II Neo N54L Dual-Core Processor", 
+        "emcee": "", 
+        "h5py": "", 
+        "machine": "draco", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "os": "Linux 3.16.0-4-amd64", 
+        "python": "2.7", 
+        "ram": "4GB", 
+        "scipy": ""
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "astropy": "", 
+        "emcee": "", 
+        "h5py": "", 
+        "matplotlib": "", 
+        "numpy": "", 
+        "scipy": ""
+    }, 
+    "results": {
+        "benchmarks.TimeECPL.time_ECPL_1start": 0.000766194402, 
+        "benchmarks.TimeECPL.time_ECPL_2memoize": 0.0003196018980000002, 
+        "benchmarks.TimeECPL.time_ECPL_3nomemo": 0.0006088563670000004, 
+        "benchmarks.TimePrefit.time_prefit_ecpl": 0.5081927189999997, 
+        "benchmarks.TimePrefit.time_prefit_ic": 7.910176366, 
+        "benchmarks.TimePrefit.time_prefit_ic2": 6.223031844000001, 
+        "benchmarks.TimeRadIC.mem_IC": 1112, 
+        "benchmarks.TimeRadIC.time_IC_1start": 0.004869783930000002, 
+        "benchmarks.TimeRadIC.time_IC_2memo": 0.0007104248150000005, 
+        "benchmarks.TimeRadIC.time_IC_3nomemo": 0.7096149469999995, 
+        "benchmarks.TimeRadPionDecay.mem_PionDecay": 1112, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_1start": 0.00015105113710000005, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_2memo": 0.0004693740000005775, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_3nomemo": 1.4038571630000005, 
+        "benchmarks.TimeRadPionDecay.time_PionDecay_4loadLUT": 2.0850849179999997, 
+        "benchmarks.TimeRadSy.mem_Sy": 1112, 
+        "benchmarks.TimeRadSy.time_Sy_1start": 0.00023985979099999978, 
+        "benchmarks.TimeRadSy.time_Sy_2run": 0.34195178699999973, 
+        "import.time_import": 1.6180999999892975e-05
+    }, 
+    "version": 1
+}
